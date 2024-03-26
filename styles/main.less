@@ -1,7 +1,9 @@
 @font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
 
 body {
-  background-color: #211E3A;
+  // background-color: #211E3A;
+  background-image: url('/images/jammy-jellyfish-wallpaper.jpg');
+  background-size: cover;
 }
 
 .terminal-window {
@@ -149,6 +151,10 @@ body {
 }
 
 @media only screen and (max-width: 650px){
+  body{
+    background-image: none;
+    background-color: #211E3A;
+  }
   .terminal-window {
     width: 95%;
     height: 60vh;
