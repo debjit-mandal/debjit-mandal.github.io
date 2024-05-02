@@ -7,6 +7,24 @@ const errors = {
   fileNotSpecified: 'Error: you did not specify a file',
   invalidFile: 'Error: not a valid file',
 };
+// Assuming your existing cli.js setup, add these functionalities:
+
+// Command suggestions setup
+const suggestCommands = (input) => {
+  const suggestions = Object.keys(commands).filter(cmd => cmd.startsWith(input));
+  if (suggestions.length) {
+      return suggestions.join(', ');
+  }
+  return '';
+};
+
+$(document).on('input', '.input', function() {
+  const input = $(this).text().trim();
+  const suggestions = suggestCommands(input);
+  $('.suggestions').html(suggestions ? `Suggestions: ${suggestions}` : '');
+});
+
+// Enhance the Shell class as previously described to include methods for handling suggestions and terminal commands.
 
 const struct = {
   root: ['about', 'resume', 'contact', 'talks'],

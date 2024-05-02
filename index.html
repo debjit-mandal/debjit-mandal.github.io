@@ -9,21 +9,21 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
   <script type="text/javascript" src="src/shell.js"></script>
   <script type="text/javascript" src="src/cli.js"></script>
+  <script type="text/javascript" src="src/ui.js"></script>
 </head>
 <body>
-
   <div class="terminal-window">
     <header>
-      <div class="button red"></div>
-      <div class="button green"></div>
-      <div class="button yellow"></div>
+      <div class="button red" onclick="closeTerminal()"></div>
+      <div class="button green" onclick="toggleFullscreen()"></div>
+      <div class="button yellow" onclick="toggleMinimize()"></div>
     </header>
     <div id="terminal">
       <p><span class="green">ADMIN</span> - You're in Debjit's CLI! Type `help` to get started.</p>
+      <div class="suggestions"></div> <!-- Suggestions will appear here -->
       <p class="hidden">
         <span class="prompt">
           <span class="root">root</span>
