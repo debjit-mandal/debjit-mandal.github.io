@@ -3,6 +3,7 @@ body {
   color: #f5f5f5;
   font-family: "Fira Code", monospace;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -167,4 +168,16 @@ a:hover {
   .terminal {
     height: 50%;
   }
+}
+
+/* Footer Styles */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #f5f5f5;
+}
+
+.footer p {
+  margin: 0;
 }
