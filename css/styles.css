@@ -130,7 +130,7 @@ a:hover {
 }
 
 .prompt::after {
-  content: "|";
+  content: "";
   animation: blink 1s step-start 0s infinite;
 }
 
