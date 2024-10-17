@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'resume':
                 response = `<p>Redirecting to my Resume...</p>`;
                 setTimeout(() => {
-                    window.open("https://debjit-mandal.is-a.dev/assets/resume/Debjit's%20Resume.pdf", '_blank');
+                    window.open("/assets/resume/Debjit's Resume.pdf", '_blank');
                 }, 1000);
                 break;
             case 'projects':
