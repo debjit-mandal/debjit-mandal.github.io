@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Contact Information:</p>
                 <ul>
                     <li>GitHub: <a href="https://github.com/debjit-mandal" target="_blank">https://github.com/debjit-mandal</a></li>
-                    <li>Facebook: <a href="https://www.facebook.com/iamdebjitmandal" target="_blank">https://www.facebook.com/iamdebjitmandal</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/debjit-mandal" target="_blank">https://www.linkedin.com/in/debjit-mandal</a></li>
-                    <li>X: <a href="https://www.x.com/imdebjitmandal" target="_blank">https://www.x.com/imdebjitmandal</a></li>
-                    <li>Fosstodon: <a href="https://fosstodon.org/@iamdebjitmandal" target="_blank">https://fosstodon.org/@iamdebjitmandal</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/tensortrove" target="_blank">https://www.facebook.com/tensortrove</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/tensortrove" target="_blank">https://www.linkedin.com/in/debjit-mandal</a></li>
+                    <li>X: <a href="https://www.x.com/tensortrove" target="_blank">https://www.x.com/imdebjitmandal</a></li>
+                    <li>Fosstodon: <a href="https://fosstodon.org/@tensortrove" target="_blank">https://fosstodon.org/@tensortrove</a></li>
                 </ul>
                 `;
                 break;
